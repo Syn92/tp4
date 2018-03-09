@@ -18,7 +18,7 @@ class Fournisseur : public Usager
     void afficherCatalogue() const;
     void afficherProfil() const;
 
-    void reinitialiser();
+    virtual void reinitialiser();
     void ajouterProduit(Produit *produit);
     void enleverProduit(Produit *produit);
 

@@ -71,5 +71,5 @@ void Client::ajouterProduit(Produit *produit)
 
 void Client::reinitialiser()
 {
-    // TODO
+	panier_.clear();
 }

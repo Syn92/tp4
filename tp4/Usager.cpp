@@ -40,6 +40,10 @@ void Usager::afficherProfil() const
     // TODO
 }
 
+void Usager::reinitialiser() {
+
+}
+
 void Usager::modifierNom(const string &nom)
 {
     nom_ = nom;

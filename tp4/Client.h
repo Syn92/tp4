@@ -23,7 +23,7 @@ class Client : public Usager
     void modifierCodeClient(unsigned int codeClient);
     void enleverProduit(Produit *produit);
     void ajouterProduit(Produit *produit);
-    void reinitialiser();
+    virtual void reinitialiser();
   
   protected:
     vector<Produit *> panier_;
